@@ -93,9 +93,10 @@ ul.menu__drop:after {
 }
 .wrap{
     width: 80%;
-    display: inline;
+    /*display: inline;*/
     margin: 0 auto;
     height: 100%;
+    position: relative;
 }
 .slider{
     margin: 10px auto;
@@ -141,20 +142,23 @@ ul.menu__drop:after {
     width: 90%;
     margin: 0 auto;
     display: flex;
-    min-height: 100%;
+    height: 500px;
 }
 #art1 {
     width: 33%;
+    padding: 5px;
 }
 #art2 {
     position: relative;
     top:100px;
     width: 33%;
+    padding: 5px;
 }
 #art3 {
     position: relative;
     top:200px;
     width: 33%;
+    padding: 5px;
 }
 
 h2{
@@ -167,16 +171,16 @@ h2:hover{
 footer{
     text-align: center;
     font-size: 1.2em;
-    position: absolute;
+    /*position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0;*/
+    display: flex;
     width: 80%;
     height: 40px;
 
 }
 footer #socials{
     width: 40%;
-    float: left;
 }
 footer #socials img{
     width: 40px;
@@ -185,7 +189,6 @@ footer #socials img{
 }
 footer #rights{
     width: 50%;
-    float: right;
     text-align: right;
 }
 .preloader{
