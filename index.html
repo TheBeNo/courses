@@ -8,6 +8,9 @@
         </title>
     </head>
     <body>
+       <div class="preloader">
+           <div class="loader"></div>
+       </div>
         <div class="header">
             <div class="logo"><a hreg="index.html"><img src="img/logo.png" alt="logo"></a></div>
             <div class="menu">
@@ -22,14 +25,31 @@
             </div>
         </div>
         <div class="wrap">
-            <div></div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="slider">
+                <div class="slide-holder">
+                    <div class="slide">
+                    <img src="img/grant-ritchie-338179-unsplash.jpg" alt=""/></div>
+                    <div class="slide"><img src="img/lucien-kolly-1069829-unsplash.jpg" alt=""/></div>
+                    <div class="slide"><img src="img/phil-coffman-161240-unsplash.jpg" alt=""/></div>
+                    <div class="slide"><img src="img/stefan-pflaum-1135294-unsplash.jpg" alt=""/></div>
+                </div>
             </div>
-            <div></div>
+            <div class="content">
+                <div id="art1"><h2>Lorem 1</h2><span>Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Sed itaque omnis accusamus officia, fugit quasi, a repellat, et officiis distinctio autem recusandae ad expedita, sequi eaque molestias. Ullam, perspiciatis, fugit?</div>
+                <div id="art2"><h2>Lorem 2</h2><span>Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Aliquam incidunt, numquam totam reiciendis necessitatibus ipsa obcaecati eligendi blanditiis optio aperiam veniam quos velit facilis architecto, dolores deleniti, officia rerum. Sapiente!</div>
+                <div id="art3"><h2>Lorem 3</h2><span>Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Officiis quia repellat libero ut accusamus labore ea inventore distinctio magni nisi, reiciendis quasi. Hic consectetur similique expedita officiis est perferendis molestias!</div>
+            </div>
         </div>
-        <footer></footer>
+        <footer>
+            <div id="socials" style="margin-left: 10%">
+                <a href="http://vk.com/thebeno" title="Страница Вконтакте" target="_blank"><img src="img/vk.png" alt="VK" title="VK"></a>
+                <a href="https://plus.google.com/u/0/112239962947942498806" title="Страница Google+" target="_blank"><img src="img/g+.png" alt="G+" title="G+"></a>
+                <a href="http://instagram.com/thebenonn" title="Страница Instagram" target="_blank"><img src="img/insta.png" alt="Instagram" title="Instagram"></a>
+            </div>
+            <div id="rights">
+            Все права защищены &copy; <?php echo date('Y') ?>
+            </div>
+        </footer>
+        <script src="js/preloader.js"></script>
     </body>
 </html>
